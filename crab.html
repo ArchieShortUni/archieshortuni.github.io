@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Archie Short - Covert Crab</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Archie Short</a>
+					</header>
+
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									
+									<h1>Covert Crab</h1>
+									<ul class="actions special">
+										<li><a href="https://github.com/ArchieShortUni/portfolio-covertCrab" class="button">View Code</a></li>
+									</ul>
+						
+									<p>This game is a wave based shooter created with c++ and opengl. I got to implement a wide variety of game mechanics from AI to physics and collision detection. The gimmick of this game is as you're a crab you can can only strafe sprint, forwards and backwards movement is a lot slower of an option.
+									</p>
+								</header>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-4"><span class="image fit"><img src="images/crab1.png" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/crab2.png" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/crab3.png" alt="" /></span></div>
+											
+										</div>
+									</div>
+								<div class="image main"><img src="images/crab4.png" alt="" /></div>
+								One of my favouite parts of the project was AI. We were suggested to use finite state machines but I thought I'd look into some more options and ended up going 
+								with behaviour trees, designing and programming the AI for the engineer crabs was a very rewarding experience. Pictured below is the tree for the engineer AI.
+								<div class="image main"><img src="images/behaviourtree.png" alt="" /></div>
+								<P>I learnt a lot while doing this project, I focused a lot on game feel, using momentum based movement and adjusting the hitboxes to make the game feel right in terms of difficulty as only moving left and right can be quite disorienting at first. One thing I look back on with almost amusement now is the abysmal performance. This is caused by one mistake I made in the enemy classes, rather than loading in the meshes once at the start and using that as a reference for all spawned enemies I clearly thought a better alternative would be to load this mesh in on the creation of every enemy object which as you can imagine the game didn't really enjoy doing. Since then I've managed to implement instanced rending in a project so I'd say I've very much jumped from one end of the model performance spectrum to the other. 
+				
+								</P>
+								<ul class="actions special">
+									<li><a href="index.html" class="button large">Return To Main Page</a></li>
+								</ul>
+							</section>
+							
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					
+					<section class="split contact">
+						
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">archie.short@hotmail.co.uk</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://twitter.com/BidCodesStuff" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://github.com/ArchieShortUni" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/archie-short-29a3021b0/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+							</ul>
+						</section>
+					</section>
+				</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li></li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
